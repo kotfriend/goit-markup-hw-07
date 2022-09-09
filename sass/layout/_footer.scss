@@ -1,0 +1,116 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-adress {
+    margin-top: 20px;
+}
+.footer-left-adress {
+    @include font (14px, 400, 24px);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-left-contact {
+    @include font (14px, 400, 24px);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-right {
+    margin-left: 70px;
+}
+.footer-title-social {
+    height: 16px;
+    font-family: var(--main-font);
+    @include font (14px, 700, 16px);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    .send-wrapper & {
+        margin-bottom: 20px;
+    }
+}
+.footer-icon-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-icon-icon {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+.footer-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+}
+.send-wrapper {
+    margin-left: auto;
+}
+.send-wrapper-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send-wrapper-input {
+    margin-right: 12px;
+    padding: 15px 16px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    font-family: var(--main-font);
+    @include font (16px, 400, 20px);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        outline: none;
+        border-color: var(--accent-color);
+    }
+}
+.send-wrapper-btn {
+    min-width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-family: var(--main-font);
+    @include font (16px, 700, 30px);
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+        cursor: pointer;
+    }
+}
+.send-wrapper-icon {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    margin-left: 10px;
+}

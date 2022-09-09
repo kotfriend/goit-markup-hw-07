@@ -1,0 +1,32 @@
+.models {
+    padding-top: 47px;
+    padding-bottom: 97px;
+}
+.models-list {
+    @extend %flex-conteiner;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.models-item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+}
+.models-div-for-text {
+    position: relative;
+}
+.models-absolute-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-family: var(--accent-color);
+    @include font (14px, 700, 16px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
