@@ -28,7 +28,7 @@
 
     &:hover,
     &:focus {
-        background-color: #2196F3;
+        background-color: var(--accent-color);
     }
 }
 .social-links__icon {
