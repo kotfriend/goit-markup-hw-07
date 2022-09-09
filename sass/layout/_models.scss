@@ -2,20 +2,21 @@
     padding-top: 47px;
     padding-bottom: 97px;
 }
-.models-list {
-    @extend %flex-conteiner;
+.models__list {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
-.models-item {
+.models__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 4 - 30px);
 }
-.models-div-for-text {
+.models__conteiner-text {
     position: relative;
 }
-.models-absolute-text {
+.models__text {
     position: absolute;
     bottom: 0;
     left: 0;

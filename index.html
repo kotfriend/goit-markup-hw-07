@@ -12,42 +12,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
         integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <header class="header">
         <div class="conteiner">
-        <nav class="header-nav">
-            <a class="logo link animate__fadeIn" href="./index.html">
-                <img class="logo-img" src="./images/logo.svg" alt="логотип" width="59">
+            <a class="logo link" href="./index.html">
+                <img class="logo__img" src="./images/logo.svg" alt="логотип" width="100" height="52">
             </a>
-            <ul class="nav-list list">
-                <li class="nav-item">
-                    <a class="nav-link link active" href="./index.html">Про нас</a>
+            <nav class="navigation">
+            <ul class="menu list">
+                <li class="menu__item">
+                    <a class="menu__link menu__link_active link" href="./index.html">Про нас</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="./models.html">Модельний ряд</a>
+                <li class="menu__item">
+                    <a class="menu__link link" href="./models.html">Модельний ряд</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="./index.html">Контакти</a>
+                <li class="menu__item">
+                    <a class="menu__link link" href="./index.html">Контакти</a>
                 </li>
             </ul>
         </nav>
-            <ul class="header-contact-list list">
-                <li class="header-contact-item">
-        <a class="contact-link1 link" href="tel:+380961792791">
-            <svg class="contact-icon-smartphone1">
+            <ul class="contact-list list">
+                <li class="contact-list__item">
+        <a class="contact-list__link link" href="tel:+380961792791">
+            <svg class="contact-list__icon">
                 <use href="./images/sprite.svg#icon-smartphone">
                 </use>
             </svg>
             +38 096 179 27 91
         </a>
         </li>
-                <li class="header-contact-item">
-        <a class="contact-link2 link" href="tel:+380980846695">
-            <svg class="contact-icon-smartphone2">
+                <li class="contact-list__item">
+        <a class="contact-list__link link" href="tel:+380980846695">
+            <svg class="contact-list__icon">
                 <use href="./images/sprite.svg#icon-smartphone">
                 </use>
             </svg>
@@ -61,55 +60,53 @@
         <!--HERO-->
         <section class="hero">
             <div class="conteiner">
-            <h1 class="hero-title" lang="en">Apple Office Slavuta</h1>
-            <div class="hero-button-magic">
-            <button class="modal-button" type="button" data-modal-open>Зворотній звʼязок</button>
-            </div>
+            <h1 class="hero__title" lang="en">Apple Office Slavuta</h1>
+            <button class="main-button" type="button" data-modal-open>Зворотній звʼязок</button>
         </div>
         </section>
 
         <!--BENEFITS-->
         <section class="benefits">
             <div class="conteiner">
-            <ul class="benefits-list">
-                <li class="benefits-item list">
-                    <div class="benefits-icon-bg">
-                        <svg class="benefits-icon-icon">
+            <ul class="benefits__list">
+                <li class="benefits__item list">
+                    <div class="benefits__conteiner-icon">
+                        <svg class="benefits__icon">
                             <use href="./images/sprite.svg#icon-antenna"></use>
                         </svg>
                     </div>
-                    <h3 class="benefits-title">Тестування</h3>
-                    <p class="benefits-text">Тестування за 15 основними пунктами, перевірка функціоналу, оригнальності
+                    <h3 class="benefits__title">Тестування</h3>
+                    <p class="benefits__text">Тестування за 15 основними пунктами, перевірка функціоналу, оригнальності
                         запасних частин, відсутності ремонтів</p>
                 </li>
-                <li class="benefits-item list">
-                    <div class="benefits-icon-bg">
-                        <svg class="benefits-icon-icon">
+                <li class="benefits__item list">
+                    <div class="benefits__conteiner-icon">
+                        <svg class="benefits__icon">
                             <use href="./images/sprite.svg#icon-clock"></use>
                         </svg>
                     </div>
-                    <h3 class="benefits-title">Гарантія</h3>
-                    <p class="benefits-text">Базова безкоштовна гарантія на 3 місяці, та розширена платна на 12 місяців. Ваш спокій і впевненність на наступний день
+                    <h3 class="benefits__title">Гарантія</h3>
+                    <p class="benefits__text">Базова безкоштовна гарантія на 3 місяці, та розширена платна на 12 місяців. Ваш спокій і впевненність на наступний день
                     </p>
                 </li>
-                <li class="benefits-item list">
-                    <div class="benefits-icon-bg">
-                        <svg class="benefits-icon-icon">
+                <li class="benefits__item list">
+                    <div class="benefits__conteiner-icon">
+                        <svg class="benefits__icon">
                             <use href="./images/sprite.svg#icon-diagram"></use>
                         </svg>
                     </div>
-                    <h3 class="benefits-title" lang="en">Neverlock</h3>
-                    <p class="benefits-text">Всі телефони працюють з будь-якими операторами, без будь-яких обмежень,
+                    <h3 class="benefits__title" lang="en">Neverlock</h3>
+                    <p class="benefits__text">Всі телефони працюють з будь-якими операторами, без будь-яких обмежень,
                         р-сім та інших тимчасових засобів</p>
                 </li>
-                <li class="benefits-item list">
-                    <div class="benefits-icon-bg">
-                        <svg class="benefits-icon-icon">
+                <li class="benefits__item list">
+                    <div class="benefits__conteiner-icon">
+                        <svg class="benefits__icon">
                             <use href="./images/sprite.svg#icon-astronaut"></use>
                         </svg>
                     </div>
-                    <h3 class="benefits-title">Сервіс</h3>
-                    <p class="benefits-text">Ви можете отримати як консультацію по користуванню телефона, так і передати
+                    <h3 class="benefits__title">Сервіс</h3>
+                    <p class="benefits__text">Ви можете отримати як консультацію по користуванню телефона, так і передати
                         телефон в сервіс</p>
                 </li>
             </ul>
@@ -120,67 +117,67 @@
         <section class="models">
             <div class="conteiner">
             <h2 class="title">Модельний ряд</h2>
-            <ul class="models-list list">
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-1.jpg" alt="Айфон ІКС АР" width="270" height="260">
-                <p class="models-absolute-text">
+            <ul class="models__list list">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-1.jpg" alt="Айфон ІКС АР" width="270" height="260">
+                <p class="models__text">
                     iPhone Xr Black
                 </p>
                 </div>
                 </li>
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-2.jpg" alt="Айфон 8 Плюс" width="270" height="260">
-                <p class="models-absolute-text">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-2.jpg" alt="Айфон 8 Плюс" width="270" height="260">
+                <p class="models__text">
                     iPhone 8 Plus Gold
                 </p>
                 </div>
                 </li>
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-3.jpg" alt="Айфон ІКС" width="270" height="260">
-                <p class="models-absolute-text">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-3.jpg" alt="Айфон ІКС" width="270" height="260">
+                <p class="models__text">
                     iPhone X Space Gray
                 </p>
                 </div>
                 </li>
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-4.jpg" alt="Айфон 11" width="270" height="260">
-                <p class="models-absolute-text">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-4.jpg" alt="Айфон 11" width="270" height="260">
+                <p class="models__text">
                     iPhone 11 Black
                 </p>
                 </div>
                 </li>
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-5.jpg" alt="Айфон 11" width="270" height="260">
-                <p class="models-absolute-text">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-5.jpg" alt="Айфон 11" width="270" height="260">
+                <p class="models__text">
                     iPhone 11 Purple
                 </p>
                 </div>
                 </li>
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-6.jpg" alt="Айфон 11" width="270" height="260">
-                <p class="models-absolute-text">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-6.jpg" alt="Айфон 11" width="270" height="260">
+                <p class="models__text">
                     iPhone 11 Yellow
                 </p>
                 </div>
                 </li>
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-7.jpg" alt="Айфон 11 Про" width="270" height="260">
-                <p class="models-absolute-text">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-7.jpg" alt="Айфон 11 Про" width="270" height="260">
+                <p class="models__text">
                     iPhone 11 Pro Gold
                 </p>
                 </div>
                 </li>
-                <li class="models-item">
-                <div class="models-div-for-text">
-                    <img class="models-img" src="./images/models/model-8.jpg" alt="Айфон 7" width="270" height="260">
-                <p class="models-absolute-text">
+                <li class="models__item">
+                <div class="models__conteiner-text">
+                    <img class="models__img" src="./images/models/model-8.jpg" alt="Айфон 7" width="270" height="260">
+                <p class="models__text">
                     iPhone 7 Matt
                 </p>
                 </div>
@@ -193,153 +190,152 @@
         <section class="salers">
             <div class="conteiner">
             <h2 class="title">Наша команда</h2>
-            <ul class="salers-list list">
-                <li class="salers-item">
-                    <img class="salers-img" src="./images/salers/saler-img-1.jpg" alt="Перший продавець" width="270"
+            <ul class="salers__list list">
+                <li class="salers__item">
+                    <img class="salers__img" src="./images/salers/saler-img-1.jpg" alt="Перший продавець" width="270"
                         height="260">
-                    <div class="salers-item-wrapper">
-                        <h3 class="salers-2-title">Євгеній Шульженко</h3>
-                    <p class="salers-text">Закупник</p>
-                    <ul class="social-icon">
-                        <il class="social-icon-item list">
-                            <a href="https://www.instagram.com/kotfriend/" class="social-icon-link link" target="_blank" rel="noopener noreferrer">
-                                <svg class="social-icon-svg">
+                    <div class="salers__conteiner-text">
+                        <h3 class="salers__title">Євгеній Шульженко</h3>
+                    <p class="salers__prof">Закупник</p>
+                    <ul class="social-links list">
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link link">
+                                <svg class="social-links__icon">
                                     <use href="./images/sprite.svg#icon-instagram"></use>
                                 </svg>
-                            </a></il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
+                            </a></li>
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link link">
+                                <svg class="social-links__icon">
                                     <use href="./images/sprite.svg#icon-twitter"></use>
                                 </svg>
-                            </a></il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
+                            </a></li>
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link link">
+                                <svg class="social-links__icon">
                                     <use href="./images/sprite.svg#icon-facebook"></use>
                                 </svg>
-                            </a></il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
+                            </a></li>
+                        <li class="social-links__item">
+                            <a href="" class="social-links__link link">
+                                <svg class="social-links__icon">
                                     <use href="./images/sprite.svg#icon-linkedin"></use>
                                 </svg>
-                            </a></il>
+                            </a></li>
                     </ul>
                     </div>
                 </li>
-                <li class="salers-item">
-                    <img class="salers-img" src="./images/salers/saler-img-2.jpg" alt="Другий продавець" width="270"
-                        height="260">
-                    <div class="salers-item-wrapper">
-                    <h3 class="salers-2-title">Дмитро Шопін</h3>
-                    <p class="salers-text">Продавець</p>
-                    <ul class="social-icon">
-                        <il class="social-icon-item list">
-                            <a href="https://www.instagram.com/_dima.shopin_/" class="social-icon-link link" target="_blank" rel="noopener noreferrer">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </il>
-                    </ul>
+                <li class="salers__item">
+                    <img class="salers__img" src="./images/salers/saler-img-2.jpg" alt="Другий продавець" width="270" height="260">
+                    <div class="salers__conteiner-text">
+                        <h3 class="salers__title">Дмитро Шопін</h3>
+                        <p class="salers__prof">Продавець</p>
+                        <ul class="social-links list">
+                            <li class="social-links__item">
+                                <a href="" class="social-links__link link">
+                                    <svg class="social-links__icon">
+                                        <use href="./images/sprite.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-links__item">
+                                <a href="" class="social-links__link link">
+                                    <svg class="social-links__icon">
+                                        <use href="./images/sprite.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-links__item">
+                                <a href="" class="social-links__link link">
+                                    <svg class="social-links__icon">
+                                        <use href="./images/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-links__item">
+                                <a href="" class="social-links__link link">
+                                    <svg class="social-links__icon">
+                                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
-                <li class="salers-item">
-                    <img class="salers-img" src="./images/salers/saler-img-3.jpg" alt="Другий продавець" width="270" height="260">
-                    <div class="salers-item-wrapper">
-                    <h3 class="salers-2-title">Ольга Шопіна</h3>
-                    <p class="salers-text">Розробник</p>
-                    <ul class="social-icon">
-                        <il class="social-icon-item list">
-                            <a href="https://www.instagram.com/olga.shopina.94/" class="social-icon-link link" target="_blank" rel="noopener noreferrer">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </il>
-                    </ul>
-                    </div>
+                <li class="salers__item">
+                   <img class="salers__img" src="./images/salers/saler-img-3.jpg" alt="Третій продавець" width="270" height="260">
+                   <div class="salers__conteiner-text">
+                       <h3 class="salers__title">Ольга Шопіна</h3>
+                       <p class="salers__prof">Розробник</p>
+                       <ul class="social-links list">
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-instagram"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-twitter"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-facebook"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-linkedin"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                       </ul>
+                   </div>
                 </li>
-                <li class="salers-item">
-                    <img class="salers-img" src="./images/salers/saler-img-4.jpg" alt="Другий продавець" width="270" height="260">
-                    <div class="salers-item-wrapper">
-                    <h3 class="salers-2-title">Мілана Шульженко</h3>
-                    <p class="salers-text">Модель</p>
-                    <ul class="social-icon">
-                        <il class="social-icon-item list">
-                            <a href="https://www.instagram.com/milana.kotfriend/" class="social-icon-link link" target="_blank" rel="noopener noreferrer">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </il>
-                        <il class="social-icon-item list">
-                            <a href="" class="social-icon-link link">
-                                <svg class="social-icon-svg">
-                                    <use href="./images/sprite.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </il>
-                    </ul>
-                    </div>
-                </li>
+                <li class="salers__item">
+                   <img class="salers__img" src="./images/salers/saler-img-4.jpg" alt="Третій продавець" width="270" height="260">
+                   <div class="salers__conteiner-text">
+                       <h3 class="salers__title">Мілана Шульженко</h3>
+                       <p class="salers__prof">Модель</p>
+                       <ul class="social-links list">
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-instagram"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-twitter"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-facebook"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                           <li class="social-links__item">
+                               <a href="" class="social-links__link link">
+                                   <svg class="social-links__icon">
+                                       <use href="./images/sprite.svg#icon-linkedin"></use>
+                                   </svg>
+                               </a>
+                           </li>
+                       </ul>
+                   </div>
+                </li>    
             </ul>
             </div>
         </section>
@@ -348,45 +344,45 @@
     <section class="customers">
         <div class="conteiner">
             <h2 class="title">Постійні клієнти</h2>
-            <ul class="customers-list list">
-                <il class="customers-item">
-                    <a href="" class="customers-link link">
-                        <svg class="customers-icon use">
+            <ul class="customers__list list">
+                <il class="customers__item">
+                    <a href="" class="customers__link link">
+                        <svg class="customers__icon">
                             <use href="./images/sprite.svg#icon-group1"></use>
                         </svg>
                     </a>
                 </il>
-                <il class="customers-item">
-                    <a href="" class="customers-link link">
-                        <svg class="customers-icon use">
+                <il class="customers__item">
+                    <a href="" class="customers__link link">
+                        <svg class="customers__icon">
                             <use href="./images/sprite.svg#icon-group2"></use>
                         </svg>
                     </a>
                 </il>
-                <il class="customers-item">
-                    <a href="" class="customers-link link">
-                        <svg class="customers-icon use">
+                <il class="customers__item">
+                    <a href="" class="customers__link link">
+                        <svg class="customers__icon">
                             <use href="./images/sprite.svg#icon-group3"></use>
                         </svg>
                     </a>
                 </il>
-                <il class="customers-item">
-                    <a href="" class="customers-link link">
-                        <svg class="customers-icon use">
+                <il class="customers__item">
+                    <a href="" class="customers__link link">
+                        <svg class="customers__icon">
                             <use href="./images/sprite.svg#icon-group4"></use>
                         </svg>
                     </a>
                 </il>
-                <il class="customers-item">
-                    <a href="" class="customers-link link">
-                        <svg class="customers-icon use">
+                <il class="customers__item">
+                    <a href="" class="customers__link link">
+                        <svg class="customers__icon">
                             <use href="./images/sprite.svg#icon-group5"></use>
                         </svg>
                     </a>
                 </il>
-                <il class="customers-item">
-                    <a href="" class="customers-link link">
-                        <svg class="customers-icon use">
+                <il class="customers__item">
+                    <a href="" class="customers__link link">
+                        <svg class="customers__icon">
                             <use href="./images/sprite.svg#icon-group6"></use>
                         </svg>
                     </a>
@@ -399,65 +395,66 @@
     <!--FOOTER-->
     <footer class="footer">
         <div class="conteiner">
-            <div class="footer-left">
+            <div class="footer__conteiner-adress">
             <a class="logo link" href="./index.html">
-                <img class="logo-img" src="./images/logo.svg" alt="логотип" width="100" height="52">
+                <img class="logo__img" src="./images/logo.svg" alt="логотип" width="100" height="52">
             </a>
-            <address class="footer-adress adress">
-                <ul class="footer-left-list list">
-                    <li class="footer-left-item">
-                        <a class="footer-left-adress link" href="https://goo.gl/maps/dvm2m9dj2dHpDb23A" target="_blank"
+            <address class="adress">
+                <ul class="adress__list list">
+                    <li class="adress__item">
+                        <a class="adress__location link" href="https://goo.gl/maps/dvm2m9dj2dHpDb23A" target="_blank"
                             rel="noopener noreferrer">
                         м. Славута, вул. Соборності, 6</a>
                     </li>
-                    <li class="footer-left-item">
-                        <a class="footer-left-contact link" href="tel:+380961792791">+38096 179 27 91</a>
+                    <li class="adress__item">
+                        <a class="adress__tel link" href="tel:+380961792791">+38096 179 27 91</a>
                     </li>
-                    <li class="footer-left-item">
-                        <a class="footer-left-contact link" href="tel:+380980846695">+38098 084 66 95</a>
+                    <li class="adress__item">
+                        <a class="adress__tel link" href="tel:+380980846695">+38098 084 66 95</a>
                     </li>
                 </ul>
             </address>
             </div>
-            <div class="footer-right">
-                <h3 class="footer-title-social">Приєднуйтесь</h3>
-            <ul class="footer-icon-list list">
-                <li class="footer-icon-item">
-                    <a href="https://www.instagram.com/apple_office_slavuta/" class="footer-icon-link link" target="_blank" rel="noopener noreferrer">
-                        <svg class="footer-icon-icon">
+            <div class="footer__conteiner-social">
+                <h3 class="footer__title">Приєднуйтесь</h3>
+            <ul class="social-links list">
+                <li class="social-links__item">
+                    <a href="https://www.instagram.com/apple_office_slavuta/" class="social-links__link link" target="_blank" rel="noopener noreferrer">
+                        <svg class="social-links__icon">
                             <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="footer-icon-item">
-                    <a href="" class="footer-icon-link link">
-                        <svg class="footer-icon-icon">
+                <li class="social-links__item">
+                    <a href="" class="social-links__link link">
+                        <svg class="social-links__icon">
                             <use href="./images/sprite.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="footer-icon-item">
-                    <a href="https://www.facebook.com/apple.office.slavuta/shop/" class="footer-icon-link link" target="_blank" rel="noopener noreferrer">
-                        <svg class="footer-icon-icon">
+                <li class="social-links__item">
+                    <a href="https://www.facebook.com/apple.office.slavuta/shop/" class="social-links__link link" target="_blank" rel="noopener noreferrer">
+                        <svg class="social-links__icon">
                             <use href="./images/sprite.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="footer-icon-item">
-                    <a href="" class="footer-icon-link link">
-                        <svg class="footer-icon-icon">
+                <li class="social-links__item">
+                    <a href="" class="social-links__link link">
+                        <svg class="social-links__icon">
                             <use href="./images/sprite.svg#icon-linkedin"></use>
                         </svg>
                     </a>
                 </li>
             </ul>
             </div>
-            <div class="send-wrapper">
-                <h3 class="footer-title-social">Підпишіться на розсилку</h3>
-                <form action="#" class="send-wrapper-form">
-                    <input name="user-send-footer" type="email" class="send-wrapper-input" placeholder="E-mail">
-                    <button type="submit" class="send-wrapper-btn">Підписатись
-                    <svg class="send-wrapper-icon">
+
+            <div class="footer__conteiner-send-email">
+                <h3 class="footer__title">Підпишіться на розсилку</h3>
+                <form action="#" class="send-email">
+                    <input name="user email" type="email" class="send-email__input" placeholder="E-mail">
+                    <button type="submit" class="main-button">Підписатись
+                    <svg class="send-email__icon">
                         <use href="./images/sprite.svg#icon-send"></use>
                     </svg>
                     </button>
@@ -467,46 +464,49 @@
     </footer>
 
 <!--MODAL WINDOWS-->
-    <div class="darkbg is-hidden" data-modal> 
-        <div class="modal-windows">
-            <button type="button" class="modal-windows-button" data-modal-close>
-                <svg class="modal-windows-button-icon">
+    <div class="backdrop is-hidden" data-modal> 
+        <div class="modal">
+            <button type="button" class="button-closed" data-modal-close>
+                <svg class="button-closed__icon">
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
-            <p class="modal-windows-text">Залиште свої контакти для звʼязку</p>
-        
-        <form action="#" class="modal-form">
-            <label for="" class="modal-form-label">Імʼя
-            <span class="modal-form-input-wrapper">
-                <input name="user-text" type="text" class="modal-form-input" required minlength="2">
-                <svg class="modal-form-icon">
+            <p class="modal__title">Залиште свої контакти для звʼязку</p>
+    
+        <form action="#" class="modal__form">
+            <label for="" class="modal__label">Імʼя
+            <span class="modal__conteiner-input">
+                <input name="user-text" type="text" class="modal__input" required minlength="2">
+                <svg class="modal__icon">
                     <use href="./images/sprite.svg#icon-name-modal"></use>
                 </svg>
             </span>
         </label>
-            <label for="" class="modal-form-label">Телефон
-            <span class="modal-form-input-wrapper">
-                <input name="user-tel" type="tel" class="modal-form-input" placeholder="XXX-XXX-XX-XX" title="Введіть номер в форматі XXX-XXX-XX-XX" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
-                <svg class="modal-form-icon">
+            <label for="" class="modal__label">Телефон
+            <span class="modal__conteiner-input">
+                <input name="user-tel" type="tel" class="modal__input" placeholder="XXX-XXX-XX-XX" title="Введіть номер в форматі XXX-XXX-XX-XX" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+                <svg class="modal__icon">
                     <use href="./images/sprite.svg#icon-phone-modal"></use>
                 </svg>
             </span>
         </label>
-            <label for="" class="modal-form-label">Електронна пошта
-            <span class="modal-form-input-wrapper">
-                <input name="user-emal" type="email" class="modal-form-input">
-                <svg class="modal-form-icon">
+            <label for="" class="modal__label">Електронна пошта
+            <span class="modal__conteiner-input">
+                <input name="user-emal" type="email" class="modal__input">
+                <svg class="modal__icon">
                     <use href="./images/sprite.svg#icon-email-modal"></use>
                 </svg>
             </span>
         </label>
-            <label for="" class="modal-form-label">Комментар
-                <textarea name="user-message" class="modal-form-textarea" placeholder="Введіть текст"></textarea>
+            <label for="" class="modal__label">Комментар
+                <textarea name="user-message" class="modal__textarea" placeholder="Введіть текст"></textarea>
             </label>
-            <input id="user-term" type="checkbox" value="on" name="user-checkbox" class="modal-form-checkbox visually-hidden">
-            <label for="user-term" class="modal-form-check-label">Погоджуюсь з розсилкою та приймаю&nbsp;<a href="" class="modal-form-checkbox-link">Умови договору</a></label>
-            <button type="submit" class="modal-form-btn">Відправити</button>
+        
+            <div class="terms">
+            <input id="user-term" type="checkbox" value="on" name="user-checkbox" class="terms__checkbox visually-hidden">
+            <label for="user-term" class="terms__label">Погоджуюсь з розсилкою та приймаю &nbsp;<a href="" class="terms__link">Умови договору</a></label>
+            </div>
+            <button type="submit" class="main-button">Відправити</button>
         </form>
         </div>
     </div>
